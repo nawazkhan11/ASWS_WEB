@@ -1,0 +1,72 @@
+.flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.flex-c {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-s {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.flex-r-sb {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-r-sa {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.flex-col-end {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+.flex-wrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: centre;
+}
+
+.gap1rem {
+  gap: 1rem;
+}
+
+.gap2rem {
+  gap: 2rem;
+}
+
+
+.signin-heading span {
+  color: var(--color-black-1);
+  font-family: Poppins;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}

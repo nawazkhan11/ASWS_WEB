@@ -1,0 +1,128 @@
+#teacherdetails {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 100%;
+  padding: 3rem;
+}
+
+.teacherdetails-heading span span {
+  font-size: 1.7rem;
+  font-weight: 400;
+}
+
+/* Teacher Qualification */
+.teacher-details-card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  padding: 2rem 0;
+  gap: 2rem;
+}
+
+.teacher-qualification,
+.teacher-experience {
+  width: 100%;
+  height: auto;
+  border-radius: var(--card-border);
+  background-color: var(--color-white);
+  padding: 2rem;
+}
+
+.qualification-list,
+.experience-list {
+  padding: 1rem;
+  gap: 1.5rem;
+}
+
+.qualification-card,
+.experience-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.qualification-card > div
+.experience-card > div {
+  padding: 0.5rem;
+}
+
+.OsmaniaUniversityLogo,
+.JamiaNizamiaLogo {
+  height: 3.5rem;
+  width: 3.5rem;
+}
+
+.university-name,
+.degree-title,
+.degree-duration,
+.organisation-name,
+.experience-title,
+.experience-duration {
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 1.7rem;
+  color: var(--color-black-shade);
+}
+.degree-title,
+.experience-title {
+  font-weight: 500;
+}
+.degree-duration,
+experience-duration {
+  font-weight: 300;
+}
+
+/* Large desktop screens (1440px and above) */
+@media (min-width: 1440px) {
+}
+
+/* Medium-sized desktop screens (1280px to 1439px) */
+@media (min-width: 1280px) and (max-width: 1439px) {
+}
+/* Small desktop screens and tablets (1024px to 1279px) */
+@media (min-width: 1024px) and (max-width: 1279px) {
+}
+
+/* Tablets (768px to 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  #user-profile-div {
+    display: none;
+  }
+  .teacher-details-card {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    padding: 2rem 0;
+    gap: 2rem;
+  }
+}
+
+/* Mobile devices in landscape orientation (480px to 767px) */
+@media (min-width: 480px) and (max-width: 767px) {
+  #user-profile-div {
+    display: none;
+  }
+  .teacher-details-card {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    padding: 2rem 0;
+    gap: 2rem;
+  }
+}
+
+/* Mobile devices in portrait orientation (320px to 479px) */
+@media (min-width: 320px) and (max-width: 479px) {
+  #user-profile-div {
+    display: none;
+  }
+  .teacher-details-card {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    padding: 2rem 0;
+    gap: 2rem;
+  }
+}

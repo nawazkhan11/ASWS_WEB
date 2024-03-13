@@ -1,0 +1,93 @@
+#import {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 100%;
+  padding: 3rem;
+  height: 100vh;
+}
+
+#import-heading {
+  padding: 2rem 0;
+}
+
+#upload {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#upload div {
+  padding: 1rem 0;
+}
+
+.upload-card {
+  border: 1px dashed var(--color-grey-3);
+  border-radius: var(--card-border);
+  width: 40%;
+  height: 14.6875rem;
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.upload-card div .center {
+  text-align: center;
+}
+.upload-card span {
+  margin: auto;
+  display: block;
+
+  color: var(--color-grey-3);
+}
+
+.upload-button{
+  width: 10rem;
+}
+
+.download-template-file span {
+  text-decoration: underline;
+  color: var(--color-green-hyperlink);
+  cursor: pointer;
+}
+
+/* Large desktop screens (1440px and above) */
+@media (min-width: 1440px) {
+  .upload-card {
+    width: 50%;
+  }
+}
+/* Medium-sized desktop screens (1280px to 1439px) */
+@media (min-width: 1280px) and (max-width: 1439px) {
+  .upload-card {
+    width: 55%;
+  }
+}
+
+/* Small desktop screens and tablets (1024px to 1279px) */
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .upload-card {
+    width: 60%;
+  }
+}
+
+/* Tablets (768px to 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .upload-card {
+    width: 70%;
+  }
+}
+
+/* Mobile devices in landscape orientation (480px to 767px) */
+@media (min-width: 480px) and (max-width: 767px) {
+  .upload-card {
+    width: 90%;
+  }
+}
+
+/* Mobile devices in portrait orientation (320px to 479px) */
+@media (min-width: 320px) and (max-width: 479px) {
+  .upload-card {
+    width: 90%;
+  }
+}

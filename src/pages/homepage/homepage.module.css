@@ -1,0 +1,751 @@
+/* ROOT SECTION OF CSS VARIABLE DECLARATION */
+:root {
+  /* Home Page Them */
+  --bg-color-homepage-primary: #ffffff;
+  --bg-color-homepage-secondary: #022d27;
+  --bg-color-homepage-tertiary: #fcedc6;
+  --bg-color-homepage-quaternary: #dde3ec;
+
+  --color-homepage-card-black: #0b0706;
+
+  --color-font-primary: #1b9686;
+  --color-font-secondary: #ffffff;
+  --color-font-tertiary: #525560;
+  --color-font-quaternary: #1d2130;
+
+  --color-chart-1: #bef3c0;
+  --color-chart-2: #ac94f1;
+  --color-chart-3: #fff0ca;
+  --color-chart-4: #f9cf64;
+  --color-chart-5: #f38fbf;
+
+  /* Home Page Them */
+
+  /* Login & Dashboard Theme Color */
+  --color-purple: #4d44b5;
+  --color-red: #f95a77;
+  --color-orange: #fb7d5b;
+  --color-yellow: #fcc43e;
+  --color-text: #303972;
+  --color-green: #4cbc9a;
+  --color-green-1: #219653;
+  --color-blue: #153060;
+
+  /* white Color */
+  --color-white: #ffffff;
+  --color-grey-0: #f3f4ff;
+  --color-grey-1: #f5f5f5;
+  --color-grey-2: #c1bbeb;
+  --color-grey-3: #a098ae;
+  --color-grey-4: #fafafa;
+
+  /* line  */
+  --line: #eaeaea;
+
+  /* Text off */
+  --text-off: #828282;
+
+  /* extras */
+  --color-green-hyperlink: #6418c3;
+  --color-font-link: red;
+
+  /* black Color */
+  --color-black: #232222;
+  --color-black-1: #000;
+
+  /* Transparent Color */
+  --color-purple-10: rgba(77, 68, 181, 0.1);
+
+  /* Gradient Color */
+  --linear-1: linear-gradient(
+    180deg,
+    #fb7d5b -242.86%,
+    rgba(251, 125, 91, 0) 100%
+  );
+  --linear-2: linear-gradient(
+    180deg,
+    #fcc43e -241.95%,
+    rgba(252, 196, 62, 0) 100%
+  );
+  --linear-3: linear-gradient(178.76deg, #4d44b5 -47.98%, #303972 163.51%);
+
+  /* Border */
+  --card-border: 1.5rem;
+}
+
+h2 {
+  width: 54.3125rem;
+  color: var(--color-font-primary);
+
+  /* H2 */
+  font-family: 'Roboto';
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3.6rem; /* 3.6rem */
+  text-transform: capitalize;
+}
+
+h3 {
+  color: var(--color-white);
+
+  font-family: 'Roboto';
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.625rem; /* 2.625rem */
+  text-transform: capitalize;
+}
+
+p {
+  color: var(--color-font-tertiary);
+
+  /* Paragraph */
+  font-family: 'Roboto';
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.6rem; /* 1.6rem */
+}
+
+.homepage {
+  background-color: var(--bg-color-homepage-primary);
+}
+
+/* Header */
+.header_container {
+  width: 100%;
+  /* padding: 1.125rem 6.875rem; */
+  padding: 1rem 6.875rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15rem;
+  position: fixed;
+  top: 0;
+  background-color: var(--color-white);
+  z-index: 1;
+}
+
+.righteous {
+  color: var(--color-font-primary);
+  font-family: 'Righteous';
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.75rem; /* 183.333% */
+  text-transform: capitalize;
+}
+
+.asws_logo {
+  height: 4.5rem;
+  cursor: pointer;
+}
+
+/* main */
+.main_container {
+  margin-top: 5.5rem;
+}
+
+/* Home Container */
+.home_container {
+  width: 100%;
+  height: 61rem;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.6) 0%,
+      rgba(0, 0, 0, 0.6) 100%
+    ),
+    url(../../assets/images/homepage/homepage_img1.png);
+  background-size: cover;
+  padding: 1.125rem 6.875rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home_wrapper {
+  padding-right: 42rem;
+  padding-bottom: 6rem;
+}
+
+.home_heading_wrapper {
+  position: relative;
+  margin-top: 6.75rem;
+  width: 40rem;
+  color: var(--color-white);
+  font-family: 'Roboto';
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 4.8rem; /* 4.8rem */
+  text-transform: capitalize;
+}
+
+.home_buttons_wrapper {
+  margin-top: 4rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+/* About Us Container */
+.aboutus_container {
+  width: 100%;
+  height: auto;
+
+  padding: 5.31rem 6.81rem;
+  background-color: var(--color-white);
+}
+
+.aboutus_top_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+.aboutus_left_wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutus_left_content_paragraph_wrapper {
+  width: 38rem;
+  margin-top: 2rem;
+  color: var(--color-font-tertiary);
+
+  /* Paragraph */
+  font-family: 'Roboto';
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.6rem; /* 1.6rem */
+}
+
+.aboutus_button_wrapper {
+  margin-top: 1.5rem;
+  display: flex;
+}
+
+.aboutus_right_video_container {
+  width: 30rem;
+  height: 36.14631rem;
+
+  border-radius: 1.25rem;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.4) 0%,
+      rgba(0, 0, 0, 0.4) 100%
+    ),
+    url(../../assets//images/homepage/aboutus.jpg);
+  background-size: cover;
+  padding: 1.125rem 6.875rem;
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutus_play_icon {
+  width: 4rem;
+  height: 4rem;
+  cursor: pointer;
+}
+
+.aboutus_right_wrapper {
+  width: auto;
+  height: auto;
+}
+
+/* what we do Container */
+.whatwedo_container {
+  width: 100%;
+  height: auto;
+
+  padding: 5.31rem 6.81rem;
+  background: var(--bg-color-homepage-tertiary);
+}
+
+.whatwedo_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+
+.whatwedo_left_content_paragraph_wrapper {
+  width: 38rem;
+  margin-top: 1.3rem;
+  color: var(--color-font-tertiary);
+
+  /* Paragraph */
+  font-family: 'Roboto';
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.6rem; /* 1.6rem */
+}
+
+.whatwedo_right_image_container {
+  width: 30rem;
+  height: 41.875rem;
+
+  border-radius: 1.25rem;
+  background: url(../../assets/images/homepage/whatwedo.png),
+    lightgray 50% / cover no-repeat;
+}
+
+/* Projects We Have Done  */
+.projectswehavedone_container {
+  width: 100%;
+  height: auto;
+
+  padding: 5.31rem 6.81rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-white);
+}
+
+.projectswehavedone_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.projectswehavedone_bottom_wrapper {
+  margin-top: 5rem;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.projectwehavedone_card_1 {
+  border-radius: 1.25rem;
+
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.6) 0%,
+      rgba(0, 0, 0, 0.6) 100%
+    ),
+    url(../../assets/images/homepage/projectcard1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.projectwehavedone_card_2 {
+  border-radius: 1.25rem;
+
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.6) 0%,
+      rgba(0, 0, 0, 0.6) 100%
+    ),
+    url(../../assets/images/homepage/projectcard2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.projectwehavedone_card_3 {
+  border-radius: 1.25rem;
+
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.6) 0%,
+      rgba(0, 0, 0, 0.6) 100%
+    ),
+    url(../../assets/images/homepage/projectcard3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Data Section */
+
+.data_container {
+  width: 100%;
+  height: 35.4375rem;
+
+  padding: 5.31rem 6.81rem;
+  background-color: var(--bg-color-homepage-secondary);
+}
+
+.data_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 17rem;
+}
+
+.data_left_container {
+  width: 39.125rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.data_heading > h2,
+.data_paragraph > p {
+  color: var(--color-white) !important;
+}
+
+.data_paragraph p {
+  opacity: 0.6;
+
+  /* Paragraph */
+  font-family: 'Roboto';
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.6rem; /* 1.6rem */
+}
+
+/* Donation Section */
+.donation_container {
+  width: 100%;
+  height: auto;
+
+  padding: 5.31rem 6.81rem;
+  background-color: var(--bg-color-homepage-primary);
+}
+
+.donation_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Our Event Section */
+.event_container {
+  width: 100%;
+  height: auto;
+
+  padding: 0 6.81rem 5.31rem 6.81rem;
+  background-color: var(--bg-color-homepage-primary);
+}
+
+.event_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.event_cards_container {
+  display: flex;
+  gap: 1.5rem;
+}
+
+/* footer */
+.footer_container {
+  width: 100%;
+  height: auto;
+
+  padding: 5.47rem 6.75rem;
+  background-color: var(--bg-color-homepage-secondary);
+}
+
+.footer_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12rem;
+}
+
+.footer_left_container {
+  display: flex;
+  justify-content: space-between;
+
+  gap: 5rem;
+}
+
+.footer_organisation_logo .asws_logo {
+  height: 8rem;
+  padding-right: 1rem;
+}
+
+/* Media Query */
+
+/* Large desktop screens (1440px and above) */
+@media (min-width: 1440px) {
+  /* Header */
+  .navbar_hamburguer {
+    display: none;
+  }
+  /* Home */
+  .home_wrapper {
+    padding-bottom: 25rem;
+  }
+}
+
+/* Medium-sized desktop screens (1280px to 1439px) */
+@media (min-width: 1280px) and (max-width: 1439px) {
+  /* Header */
+  .navbar_hamburguer {
+    display: none;
+  }
+  /* Home  */
+  .home_container {
+    height: 39rem;
+  }
+  .home_wrapper {
+    gap: 9rem;
+  }
+  .home_heading_wrapper {
+    margin-top: 0;
+  }
+}
+
+/* Small desktop screens and tablets (1024px to 1279px) */
+@media (min-width: 1024px) and (max-width: 1279px) {
+  /* common tags */
+  h2 {
+    font-size: 1.5rem;
+    width: 30rem;
+    line-height: 1.6rem; /* 3.6rem */
+  }
+  /* header */
+  .header_container {
+    gap: 7rem;
+  }
+  .navbar_hamburguer {
+    display: none;
+  }
+  /* Home */
+  .home_container {
+    height: 39rem;
+  }
+  .home_heading_wrapper {
+    margin-top: 0;
+  }
+  .home_wrapper {
+    padding-right: 20rem;
+  }
+  .home_heading_wrapper {
+    font-size: 3.5rem;
+  }
+  /* About us */
+  .aboutus_top_container {
+    gap: 2rem;
+  }
+  .aboutus_left_content_paragraph_wrapper {
+    width: 20rem;
+  }
+  /* what we do */
+  .whatwedo_left_content_paragraph_wrapper {
+    width: 21rem;
+  }
+}
+
+/* Tablets (768px to 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* common tags */
+  h2 {
+    width: 40rem;
+  }
+  /*  Header */
+  .header_container {
+    gap: 44rem;
+  }
+  .sigin_container {
+    display: none;
+  }
+  /* Home */
+  .home_container {
+    height: 40rem;
+  }
+  .home_wrapper {
+    padding-right: 9rem;
+  }
+  /* About */
+  .aboutus_top_container {
+    flex-direction: column;
+  }
+  /* what we do */
+  .whatwedo_wrapper {
+    flex-direction: column;
+  }
+  .projectswehavedone_bottom_wrapper {
+    flex-direction: column;
+  }
+  /* events */
+  .event_cards_container {
+    flex-direction: column;
+  }
+  /* Footer */
+  .footer_wrapper {
+    flex-direction: column;
+    gap: 4rem;
+  }
+}
+
+/* Mobile devices in landscape orientation (480px to 767px) */
+@media (min-width: 480px) and (max-width: 767px) {
+  /* common tags */
+  h2 {
+    font-size: 1.5rem;
+    width: 23rem;
+    line-height: 1.6rem; /* 3.6rem */
+  }
+  h3 {
+    font-size: 1.5rem;
+    line-height: 1.6rem; /* 3.6rem */
+  }
+  /* Header */
+  .header_container {
+    gap: 27rem;
+  }
+  .sigin_container {
+    display: none;
+  }
+
+  /* Home */
+  .home_container {
+    height: 35rem;
+  }
+  .home_wrapper {
+    padding-right: 8rem;
+  }
+  .home_heading_wrapper {
+    width: 23.80275rem;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3rem; /* 3rem */
+  }
+  /* About us */
+  .aboutus_top_container {
+    flex-direction: column;
+  }
+  .aboutus_left_content_paragraph_wrapper {
+    width: 25rem;
+  }
+  /* what we do */
+  .whatwedo_wrapper {
+    flex-direction: column;
+  }
+  .whatwedo_left_content_paragraph_wrapper {
+    width: 25rem;
+  }
+  .projectswehavedone_bottom_wrapper {
+    flex-direction: column;
+  }
+  /* Donation */
+  .donation_container {
+    padding: 3rem 4rem;
+  }
+  /* Events */
+  .event_cards_container {
+    flex-direction: column;
+  }
+  /* Footer */
+  .footer_wrapper {
+    flex-direction: column;
+    gap: 4rem;
+  }
+}
+
+/* Mobiles devices in portrait orientation (320px to 479px) */
+@media (min-width: 280px) and (max-width: 479px) {
+  /* common tags */
+  h2 {
+    font-size: 1rem;
+    width: 12rem;
+    line-height: 1rem; /* 3.6rem */
+  }
+  h3 {
+    font-size: 1rem;
+    line-height: 1rem; /* 3.6rem */
+  }
+  p {
+    font-size: 0.8rem;
+    line-height: 1rem;
+  }
+  /* header */
+  .header_container {
+    gap: 10rem;
+  }
+  .asws_logo {
+    height: 4rem;
+    cursor: pointer;
+  }
+  .sigin_container {
+    display: none;
+  }
+
+  /* home */
+  .home_heading_wrapper {
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+  .home_container {
+    height: 35rem;
+  }
+  .home_wrapper {
+    padding-right: 0;
+  }
+  .home_heading_wrapper {
+    width: 15rem;
+    font-size: 2.3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.2rem;
+  }
+  .home_buttons_wrapper {
+    flex-direction: column;
+  }
+  /* About  */
+  .aboutus_top_container {
+    flex-direction: column;
+  }
+  .aboutus_left_content_paragraph_wrapper {
+    width: 25rem;
+  }
+  .aboutus_right_video_container {
+    width: 13rem;
+    height: 20rem;
+    padding: 0;
+  }
+  /* what we do */
+  .whatwedo_wrapper {
+    flex-direction: column;
+  }
+  .whatwedo_left_content_paragraph_wrapper {
+    width: 25rem;
+  }
+  .projectswehavedone_bottom_wrapper {
+    flex-direction: column;
+  }
+  .whatwedo_right_image_container {
+    width: 13rem;
+    height: 20rem;
+    background-size: cover;
+  }
+  /* donation */
+  .donation_container {
+    padding: 3rem 4rem;
+  }
+  /* Events */
+  .event_cards_container {
+    flex-direction: column;
+  }
+  /* Footer */
+  .footer_wrapper {
+    flex-direction: column;
+    gap: 4rem;
+    align-items: center;
+    padding: 0 0 4rem 0;
+  }
+  .footer_left_container {
+    text-align: center;
+    flex-direction: column;
+    gap: 2rem;
+  }
+}

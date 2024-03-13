@@ -1,0 +1,13 @@
+.devider_container,
+.devider_1_container {
+  width: 100%;
+  height: 1px;
+}
+
+.devider_container {
+  background: var(--color-devider);
+}
+
+.devider_1_container {
+  background: var(--color-devider-1);
+}

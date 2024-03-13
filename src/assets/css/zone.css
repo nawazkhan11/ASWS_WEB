@@ -1,0 +1,237 @@
+#zone {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 100%;
+  padding: 3rem;
+  min-height: 100vh;
+}
+/* SEARCH ZONE DIV */
+
+.zone-search-btn {
+  padding: 2rem 0 2rem 0;
+}
+
+/* SEARCH INPUT & CREATE BUTTON */
+
+.search-centre-div {
+  position: relative;
+}
+
+#search-centre {
+  align-items: center;
+
+  padding-left: 4rem;
+  padding-right: 2rem;
+
+  width: 21rem;
+  height: 3.75rem;
+
+  font-size: 1.2rem;
+  background: var(--color-white);
+  border-radius: 40px;
+}
+.search-centre-icon {
+  position: absolute;
+  top: 1rem;
+  left: 1.5rem;
+  width: 2rem;
+  height: 2rem;
+  color: var(--color-text);
+}
+
+/* Select Centre */
+
+#zone-check-buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 3rem;
+  padding: 2rem 0 0 0;
+}
+
+/* Zone Cards */
+
+#zone-card-list {
+  padding: 2rem 0 0 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+  grid-gap: 2rem;
+}
+
+/* Zone Cards */
+
+#zone-card {
+  width: 22rem;
+  height: 18rem;
+  background-color: var(--color-white);
+  border-radius: var(--card-border);
+  box-shadow: 0px 2px 6px 0px rgba(13, 10, 44, 0.08);
+}
+
+.zone-card-top {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.zone-card-image {
+  padding: 0 1rem 0 0;
+}
+.zone-card-img {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 0.6rem;
+}
+
+.zone-name-heading {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--color-text);
+  text-transform: capitalize;
+}
+
+.zone-head {
+  display: flex;
+  align-items: center;
+}
+
+.zone-profile-icon {
+  width: 1rem;
+  height: 1rem;
+  color: var(--color-text);
+  opacity: 90%;
+}
+
+.head-teacher-name {
+  font-family: 'Roboto';
+  font-style: normal;
+  color: var(--color-text);
+  opacity: 40%;
+  padding-left: 0.5rem;
+  padding: 0.5rem 0 0.5rem 0;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+}
+
+.head-teacher-name > span {
+  padding-left: 0.6rem;
+}
+
+.zone-card-hr-line {
+  height: 0.1rem;
+  width: 100%;
+  opacity: 60%;
+  background-color: var(--color-grey-3);
+}
+
+.zone-card-bottom {
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.zone-card-bottom-div {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.zone-card-bottom-div div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1rem;
+}
+
+.zone-card-bottom-div div span {
+  padding-left: 0.5rem;
+  color: var(--color-text);
+  opacity: 50%;
+  text-transform: capitalize;
+}
+
+.zone-icons {
+  width: 2rem;
+  height: 2rem;
+  opacity: 50%;
+  color: var(--color-text);
+}
+
+.view-centre a {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  font-family: 'Roboto';
+  font-size: 1rem;
+  font-weight: 600;
+
+  color: var(--color-orange);
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+/* Large desktop screens (1440px and above) */
+@media (min-width: 1440px) {
+  #zone-card {
+    width: 25.1rem;
+  }
+}
+
+/* Medium-sized desktop screens (1280px to 1439px) */
+@media (min-width: 1280px) and (max-width: 1439px) {
+  #zone-card {
+    width: 23rem;
+  }
+}
+
+/* Small desktop screens and tablets (1024px to 1279px) */
+@media (min-width: 1024px) and (max-width: 1279px) {
+}
+
+/* Tablets (768px to 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  #user-profile-div {
+    display: none;
+  }
+  #zone-card-list {
+    display: flex;
+    justify-content: center;
+  }
+  #zone-card-list {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/* Mobile devices in landscape orientation (480px to 767px) */
+@media (min-width: 480px) and (max-width: 767px) {
+  #user-profile-div {
+    display: none;
+  }
+  #zone-card-list {
+    display: flex;
+    justify-content: center;
+  }
+  #zone-card-list {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/* Mobile devices in portrait orientation (320px to 479px) */
+@media (min-width: 320px) and (max-width: 479px) {
+  #user-profile-div {
+    display: none;
+  }
+  #zone-card-list {
+    display: flex;
+    justify-content: center;
+  }
+}

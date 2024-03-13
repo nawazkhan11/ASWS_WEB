@@ -1,0 +1,98 @@
+/* Font Types */
+
+.poppins {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  text-transform: capitalize;
+  color: var(--color-text);
+}
+
+.poppins-w400 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 1.4rem;
+  text-transform: capitalize;
+  color: var(--color-grey-3);
+}
+
+.poppins-heading {
+  font-family: 'Poppins';
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+  color: var(--color-text);
+}
+
+.poppins-heading-2rem {
+  font-family: 'Poppins';
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+  color: var(--color-text);
+}
+
+.poppins-heading-2rem-600 {
+  font-family: Poppins;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+  color: var(--color-text);
+}
+
+.poppins-sub-heading {
+  font-family: 'Poppins';
+  font-size: 1.5625rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+  color: var(--color-text);
+}
+
+.poppins-sub-heading-1rem {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 1rem;
+  text-transform: capitalize;
+  color: var(--color-text);
+}
+
+.inter-heading {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 28px;
+  text-transform: capitalize;
+}
+
+.inter-regular {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 28px;
+  text-transform: capitalize;
+}
+
+.Montserrat {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 24px;
+  text-transform: capitalize;
+}

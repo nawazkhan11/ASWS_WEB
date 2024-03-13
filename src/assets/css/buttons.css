@@ -1,0 +1,131 @@
+/* DropdownMenu Button */
+.btn-dropdownMenu-container {
+  position: relative;
+  display: inline-block;
+}
+.btn-dropdownMenu {
+  height: auto;
+  width: auto;
+  border-radius: 2.5rem;
+  background-color: var(--color-purple);
+  color: var(--color-white);
+  cursor: pointer;
+  padding: 0 1.5rem;
+}
+
+.btn-dropdownMenu > span {
+  padding: 1rem 0.8rem;
+}
+
+.btn-dropdownMenu-content {
+  position: absolute;
+  top: 0;
+  font-weight: 400;
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  color: var(--color-white);
+  background-color: var(--color-purple);
+  z-index: 1;
+  width: 100%;
+  border-radius: 1.5rem;
+}
+
+.btn-dropdownMenu-content > div {
+  cursor: pointer;
+}
+
+.btn-dropdownMenu-content > div a {
+  color: var(--color-white);
+  padding: 1rem 0 0 0;
+}
+
+/*  PrimaryButton */
+.btn-primary-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0.63rem 1.5rem;
+  gap: 0.625rem;
+
+  width: 100%;
+  height: 3.75rem;
+
+  background: var(--color-purple);
+  border-radius: 2.5rem;
+  cursor: pointer;
+}
+
+.btn-primary-container span {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 2rem;
+  color: var(--color-white);
+  text-transform: capitalize;
+}
+
+/* Button Primary Add  */
+
+.btn-primary-add-container {
+  width: 100%;
+  height: auto;
+
+  background: var(--color-purple);
+  border-radius: 0.5rem;
+  color: var(--color-white);
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 3rem;
+  text-transform: capitalize;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 0.3rem;
+  cursor: pointer;
+}
+
+/*  SecondaryButton */
+.btn-secondary-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0.625rem 1.5rem;
+
+  gap: 0.625rem;
+
+  width: 100%;
+  padding: 0.625rem 1.5rem;
+
+  border: 1px solid var(--color-purple);
+  color: var(--color-purple);
+  background: var(--color-white);
+  border-radius: 2.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+
+  font-family: 'Poppins';
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+  text-transform: capitalize;
+}
+
+.btn-secondary-container:hover {
+  color: var(--color-white);
+  background: var(--color-purple);
+}
+
+.btn-secondary-container a:-webkit-any-link {
+  color: inherit;
+  cursor: pointer;
+}

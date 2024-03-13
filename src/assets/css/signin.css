@@ -1,0 +1,475 @@
+/* SignIn Container */
+
+body .signin-main-container {
+  background: var(--color-grey-1) !important;
+}
+
+/* Signin-main-container */
+.signin-main-container {
+  height: auto;
+  width: 100%;
+  padding: 4rem 7.5rem;
+}
+
+.signin-main-container section {
+  display: grid;
+  grid-template-columns: 52.875rem 1fr 41.0625rem;
+  grid-template-rows: 100%;
+  align-items: center;
+}
+
+.signin-img {
+  width: 100%;
+  height: 58.3125rem;
+}
+
+.signin-container {
+  grid-column: 3/4;
+}
+
+/* Signin Card Contaier */
+.signin-heading {
+  color: var(--color-black-1);
+  font-family: Poppins;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.signin-card-container {
+  width: 100%;
+  height: 48.4375rem;
+  flex-shrink: 0;
+  background-color: var(--color-white);
+  padding: 3rem;
+
+  border-radius: 0.625rem;
+  box-shadow: 0px 2px 6px 0px rgba(13, 10, 44, 0.08);
+}
+
+.signin-logo {
+  color: var(--color-green-1);
+  font-family: 'Roboto';
+  font-size: 2.8125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+  padding-top: 1rem;
+}
+
+.signin-greeting {
+  color: var(--color-blue);
+  /* material-theme/display/medium */
+  font-family: 'Open Sans';
+  font-size: 2.8125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 3.25rem; /* 115.556% */
+  text-transform: capitalize;
+  padding-top: 2rem;
+}
+
+/* signin from */
+
+.signin-form-container {
+  padding: 1rem 0;
+}
+.form-feild-container {
+  padding: 0.75rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.signin-form-container div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.signin-form-label {
+  color: var(--color-blue);
+  font-family: 'Open Sans';
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.25rem; /* 142.857% */
+  letter-spacing: 0.01563rem;
+  text-transform: capitalize;
+}
+
+.signin-form-input {
+  display: flex;
+  width: 100%;
+  padding: 1rem 0.75rem;
+  align-items: center;
+  gap: 0.625rem;
+  color: var(--text-off);
+  font-size: 1rem;
+  border-radius: 0.3125rem;
+  border: 1px solid var(--line);
+  background: var(--color-grey-4);
+}
+
+.error-message{
+  font-family: 'Open Sans';
+  font-size: 1.2rem;
+  color: var(--color-red);
+  text-transform: capitalize;
+}
+
+.password-input-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  position: relative;
+}
+
+.eye-icon {
+  position: absolute;
+  color: var(--text-off);
+  right: 0;
+  font-size: 1.2rem;
+  padding-right: 1rem;
+  padding-top: 0.3rem;
+}
+
+.form-checkbox-container {
+  display: flex;
+  flex-direction: row !important;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0.75rem 0;
+  gap: 0.2rem;
+}
+
+.signin-checkbox-label {
+  padding-right: 0.2rem;
+  color: var(--color-blue);
+
+  font-family: 'Roboto';
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.25rem; /* 142.857% */
+  letter-spacing: 0.01563rem;
+  text-transform: capitalize;
+  cursor: pointer;
+  padding-left: 1rem;
+}
+
+.forgot-create-new-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.forgot-password-container span {
+  color: var(--status-wrong-number, #f2451c);
+  text-align: center;
+
+  font-family: 'Open Sans';
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.25rem;
+  letter-spacing: 0.01563rem;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.create-new-container span {
+  color: var(--color-black);
+  font-family: 'Montserrat';
+  font-size: 1.5625rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 3.25rem;
+  text-transform: capitalize;
+}
+
+.create-new {
+  color: var(--color-purple) !important;
+  font-family: 'Montserrat';
+  font-size: 1.5625rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 3.25rem;
+  cursor: pointer;
+}
+
+.login-button-container {
+  display: flex;
+  width: 100%;
+  padding: 1.125rem 2rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+
+  border-radius: 0.3125rem;
+  background: var(--color-purple);
+  text-transform: uppercase;
+
+  color: var(--color-white);
+  text-align: center;
+  font-family: 'Open Sans';
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.5rem; /* 150% */
+  letter-spacing: 0.00938rem;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.login-button-container:hover {
+  background-color: var(--color-blue);
+}
+/* Input CheckBox */
+.signin-checkbox-lable input[type='checkbox'] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  /* Add custom styles */
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 0.4rem;
+  border: 0.2rem solid var(--color-grey-3);
+}
+
+.signin-checkbox-lable input[type='checkbox']:checked {
+  appearance: auto;
+  accent-color: var(--color-blue);
+  border-radius: 50%;
+}
+
+/* Media Query */
+
+/* Large desktop screens (1440px and above) */
+@media (min-width: 1440px) {
+}
+
+/* Medium-sized desktop screens (1280px to 1439px) */
+@media (min-width: 1280px) and (max-width: 1439px) {
+  .signin-main-container {
+    padding: 2rem 6rem;
+    height: auto;
+  }
+
+  .signin-main-container section {
+    display: grid;
+    grid-template-columns: 40rem 1fr 35rem;
+    grid-template-rows: 100%;
+  }
+
+  .signin-img {
+    width: 100%;
+    height: 40rem;
+  }
+
+  .signin-card-container {
+    width: 35rem;
+    height: auto;
+    padding: 2rem;
+  }
+
+  /* Font Size & Padding */
+  .signin-heading,
+  .signin-logo,
+  .signin-greeting,
+  .gap2rem {
+    font-size: 1.7rem;
+    padding: 0rem;
+    gap: 0.5rem !important;
+  }
+
+  .signin-form-container {
+    padding: 0.2rem 0;
+  }
+  .create-new-container span {
+    font-size: 1.3rem;
+  }
+}
+
+/* Small desktop screens and tablets (1024px to 1279px) */
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .signin-main-container {
+    padding: 2rem 6rem;
+    height: auto;
+  }
+
+  .signin-main-container section {
+    display: grid;
+    grid-template-columns: 33rem 1fr 33rem;
+    grid-template-rows: 100%;
+  }
+
+  .signin-img {
+    width: 100%;
+    height: 40rem;
+  }
+
+  .signin-card-container {
+    height: auto;
+  }
+
+  /* Font Size & Padding */
+  .signin-heading,
+  .signin-logo,
+  .signin-greeting,
+  .gap2rem {
+    font-size: 1.7rem;
+    padding: 0rem;
+    gap: 0.5rem !important;
+  }
+
+  .signin-form-container {
+    padding: 0.2rem 0;
+  }
+  .create-new-container span {
+    font-size: 1.3rem;
+  }
+}
+
+/* Tablets (768px to 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .signin-main-container {
+    padding: 1rem 0 3rem 0;
+    height: auto;    
+  }
+  .signin-main-container section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  .signin-img {
+    width: 100%;
+    height: 20rem;
+  }
+
+  .gap2rem {
+    gap: 1rem !important;
+  }
+
+  .signin-card-container {
+    height: 100%;
+    padding: 1.5rem;
+  }
+
+  /* Font Size & Padding */
+  .signin-heading,
+  .signin-logo,
+  .signin-greeting,
+  .gap2rem {
+    font-size: 1.7rem;
+    padding: 0rem;
+    gap: 0.5rem !important;
+  }
+
+  .signin-form-container {
+    padding: 0.2rem 0;
+  }
+  .create-new-container span {
+    font-size: 1.3rem;
+  }
+}
+
+/* Mobile devices in landscape orientation (480px to 767px) */
+@media (min-width: 480px) and (max-width: 767px) {
+  .signin-main-container {
+    padding: 1rem 0 3rem 0;
+    height: auto;    
+  }
+
+  .signin-main-container section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .signin-img {
+    width: 100%;
+    height: 20rem;
+  }
+
+  .gap2rem {
+    gap: 1rem !important;
+  }
+
+  .signin-card-container {
+    height: 100%;
+    padding: 1.5rem;
+  }
+
+  /* Font Size & Padding */
+  .signin-heading,
+  .signin-logo,
+  .signin-greeting,
+  .gap2rem {
+    font-size: 1.7rem;
+    padding: 0rem;
+    gap: 0.5rem !important;
+  }
+
+  .signin-form-container {
+    padding: 0.2rem 0;
+  }
+  .create-new-container span {
+    font-size: 1.3rem;
+  }
+}
+
+/* Mobile devices in portrait orientation (320px to 479px) */
+@media (min-width: 320px) and (max-width: 479px) {
+  .signin-main-container {
+    padding: 1rem 0 3rem 0;
+    height: auto;    
+  }
+
+  .signin-main-container section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .signin-img {
+    width: 100%;
+    height: 20rem;
+  }
+
+  .gap2rem {
+    gap: 1rem !important;
+  }
+
+  .signin-card-container {
+    height: 100%;
+    padding: 1.5rem;
+  }
+
+  /* Font Size & Padding */
+  .signin-heading,
+  .signin-logo,
+  .signin-greeting,
+  .gap2rem {
+    font-size: 1.7rem;
+    padding: 0rem;
+    gap: 0.5rem !important;
+  }
+
+  .signin-form-container {
+    padding: 0.2rem 0;
+  }
+  .create-new-container span {
+    font-size: 0.85rem;
+  }
+}

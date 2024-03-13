@@ -1,0 +1,13 @@
+.loading_container {
+  height: 100dvh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--color-grey-0);
+}
+
+.asws_logo {
+  height: 17rem;
+  width: 17rem;
+}

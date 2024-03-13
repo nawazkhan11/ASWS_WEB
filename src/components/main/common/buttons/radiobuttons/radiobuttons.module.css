@@ -1,0 +1,24 @@
+/* Toggle Radio button */
+.radio_btn_heading {
+  color: var(--color-black-2);
+  font-family: 'Poppins';
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.radio_btn_label_container {
+  padding: 0.5rem 0;
+}
+
+.radio_btn_label_heading {
+  padding: 0 0.62rem;
+  color: var(--color-font);
+  font-family: 'Poppins';
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  cursor: pointer;
+}

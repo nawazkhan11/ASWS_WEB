@@ -1,0 +1,101 @@
+/* Primary checkbox label */
+.primaryCheckButtons_label {
+  color: var(--color-text);
+  font-family: 'Poppins';
+  font-size: 1.3rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+  text-transform: capitalize;
+  cursor: pointer;
+  
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+}
+
+.primaryCheckButtons_label input[type='checkbox'] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  /* Add custom styles */
+  width: 1.8rem;
+  height: 1.8rem;
+  border-radius: 0.4rem;
+  border: 0.2rem solid var(--color-grey-3);
+  cursor: pointer;
+}
+
+.primaryCheckButtons_label input[type='checkbox']:checked {
+  appearance: auto;
+  accent-color: var(--color-purple);
+}
+
+/* Seconary checkbox  */
+
+.secondaryCheckButtons_label {
+  display: flex;
+  align-items: center;
+  gap: 0.62rem;
+
+  color: var(--color-text);
+  font-family: 'Poppins';
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+  text-transform: capitalize;
+}
+
+.secondaryCheckButtons_label input[type='checkbox'] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  /* Add custom styles */
+  width: 1rem;
+  height: 1rem;
+  border-radius: 0.25rem;
+  border: 2px solid var(--color-grey-3);
+  cursor: pointer;
+}
+
+.secondaryCheckButtons_label input[type='checkbox']:checked {
+  appearance: auto;
+  accent-color: var(--color-purple);
+}
+
+/* Tertiary checkbox label */
+.tertiaryCheckButtons {
+  display: flex;
+  align-items: center;
+  gap: 0.62rem;
+  
+  color: var(--color-text);
+  font-family: 'Poppins';
+  font-size: 0.65rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+  text-transform: capitalize;
+}
+
+.tertiaryCheckButtons input[type='checkbox'] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  /* Add custom styles */
+  width: 1rem;
+  height: 1rem;
+  border-radius: 0.25rem;
+  border: 2px solid var(--color-grey-3);
+  cursor: pointer;
+}
+
+.tertiaryCheckButtons input[type='checkbox']:checked {
+  appearance: auto;
+  accent-color: var(--color-purple);
+}

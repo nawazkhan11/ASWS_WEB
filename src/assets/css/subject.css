@@ -1,0 +1,46 @@
+.subject-container {
+  height: auto;
+  width: 100%;
+  background-color: var(--color-white);
+  margin-top: 2rem;
+  border-radius: 1rem;
+}
+
+.chapter-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 1.5rem 1.88rem;
+
+  border-bottom: 1px solid var(--gray-200, #eaecf0);
+}
+
+.chapter-heading-font {
+  color: var(--color-text);
+  font-family: 'Poppins';
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.chapter-heading-container {
+  display: flex;
+  gap: 15rem;
+}
+
+.chapter-content-font {
+  color: var(--color-text);
+  font-family: 'Poppins';
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.action-icon {
+  cursor: pointer;
+}

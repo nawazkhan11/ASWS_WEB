@@ -1,0 +1,70 @@
+{
+  "subjects": [
+    {
+      "name": "surah",
+      "addedBy": "admin",
+      "chapters": [
+        { "name": "Surah Tun Naas","addedBy": "admin" },
+        { "name": "Surah Tun Falaq","addedBy": "admin" },
+        { "name": "Surah Tul Ikhlass","addedBy": "admin" },
+        { "name": "Surah Tul lahab","addedBy": "admin" },
+        { "name": "Surah Tul Nasr","addedBy": "admin" },
+        { "name": "Surah tuil Kafi roon","addedBy": "admin" },
+        { "name": "Surah Tul Kausar","addedBy": "admin" },
+        { "name": "Surah Tul Maaon","addedBy": "admin" },
+        { "name": "Surah Tul Quraish ","addedBy": "admin" },
+        { "name": "Surah Tul Feel","addedBy": "admin" },
+        { "name": "Surah Tun Humazah","addedBy": "admin" }
+      ]
+    },
+    {
+      "name": "ahadees",
+      "addedBy": "admin",
+      "chapters": [
+        { "name": "Surah Tun Humazah", "addedBy": "admin" },
+        { "name": "Salaam", "addedBy": "admin" },
+        { "name": "Taharat o Safai", "addedBy": "admin" },
+        { "name": "Wuzu", "addedBy": "admin" },
+        { "name": "Namaz" , "addedBy": "admin"}
+      ]
+    },
+    {
+      "name": "dua",
+      "addedBy": "admin",
+      "chapters": [
+        { "name": "Aapsi Mulaaqat Ke waqt","addedBy": "admin" },
+        { "name": "Salam Ka Jawad","addedBy": "admin" },
+        { "name": "Sote waqt ki dua","addedBy": "admin" },
+        { "name": "Sokar uthne ke baad ki dua","addedBy": "admin" },
+        { "name": "bait ul khala se nikalte waqt","addedBy": "admin" }
+      ]
+    },
+    {
+      "name": "azkaar e namaz",
+      "addedBy": "admin",
+      "chapters": [
+        { "name": "Tohjeeh","addedBy": "admin" },
+        { "name": "Sanaa","addedBy": "admin" },
+        { "name": "Tashahud","addedBy": "admin" },
+        { "name": "Durood e Ibrahim","addedBy": "admin" },
+        { "name": "Dua e Mansoora","addedBy": "admin" },
+        { "name": "Azaan ke baad ki dua","addedBy": "admin" },
+        { "name": "Dua Qunooth","addedBy": "admin" }
+
+      ]
+    },
+    {
+      "name": "kalima",
+      "addedBy": "admin",
+      "chapters": [
+        { "name": "Awwal Kalima","addedBy": "admin" },
+        { "name": "Duvvam Kalima" ,"addedBy": "admin"},
+        { "name": "Suvvam Kalima","addedBy": "admin" },
+        { "name": "Charum Kalima","addedBy": "admin" },
+        { "name": "Panjum Kalima" ,"addedBy": "admin"},
+        { "name": "Imaan e Mujmal" ,"addedBy": "admin"},
+        { "name": "Imaan e Mufassil" ,"addedBy": "admin"}
+      ]
+    }
+  ]
+}

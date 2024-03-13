@@ -1,0 +1,74 @@
+/* ROOT SECTION OF CSS VARIABLE DECLARATION */
+:root {
+  /* Home Page Them */
+  --bg-color-homepage-primary: #ffffff;
+  --bg-color-homepage-secondary: #022d27;
+  --bg-color-homepage-tertiary: #fcedc6;
+
+  --color-homepage-quaternary: #dde3ec;
+
+  --color-font-primary: #1b9686;
+  --color-font-secondary: #ffffff;
+  --color-font-tertiary: #525560;
+  --color-font-quaternary: #1d2130;
+
+  --color-bar-1: #bef3c0;
+  --color-bar-2: #ac94f1;
+  --color-bar-3: #fff0ca;
+  --color-bar-4: #f9cf64;
+  --color-bar-5: #f38fbf;
+
+  /* Home Page Them */
+
+  /* Login & Dashboard Theme Color */
+  --color-purple: #4d44b5;
+  --color-red: #f95a77;
+  --color-orange: #fb7d5b;
+  --color-yellow: #fcc43e;
+  --color-text: #303972;
+  --color-green: #4cbc9a;
+  --color-blue: #153060;
+
+  /* white Color */
+  --color-white: #ffffff;
+  --color-grey-0: #f3f4ff;
+  --color-grey-1: #f5f5f5;
+  --color-grey-2: #c1bbeb;
+  --color-grey-3: #a098ae;
+  --color-grey-4: #fafafa;
+
+  /* line  */
+  --line: #eaeaea;
+
+  /* Text off */
+  --text-off: #828282;
+
+  /* extras */
+  --color-green-hyperlink: #6418c3;
+  --color-font-link: red;
+
+  /* black Color */
+  --color-black: #232222;
+  --color-black-1: #000;
+
+  /* Transparent Color */
+  --color-purple-10: rgba(77, 68, 181, 0.1);
+
+  /* Gradient Color */
+  --linear-1: linear-gradient(
+    180deg,
+    #fb7d5b -242.86%,
+    rgba(251, 125, 91, 0) 100%
+  );
+  --linear-2: linear-gradient(
+    180deg,
+    #fcc43e -241.95%,
+    rgba(252, 196, 62, 0) 100%
+  );
+  --linear-3: linear-gradient(178.76deg, #4d44b5 -47.98%, #303972 163.51%);
+
+  /* Border */
+  --card-border: 1.5rem;
+}
+
+

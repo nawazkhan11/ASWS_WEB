@@ -1,0 +1,41 @@
+.curtain_container {
+  width: 100%;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  background-color: white !important;
+}
+
+.button_container {
+  border-radius: 1rem;
+  background: #42C158;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 0.5rem 0;
+
+  transition: all 300ms ease-in-out;
+}
+.button_container:hover {
+  background-color: gainsboro;
+}
+.button_container img {
+  width: auto;
+  height: 4rem;
+}
+h1 {
+  color: white;
+}
+
+.logo_container {
+  position: fixed;
+  top: 20rem;
+  left: 45rem;
+  text-align: center;
+  margin: auto;
+  z-index: 0;
+}
+
+.asws_logo {
+  height: 18rem;
+}

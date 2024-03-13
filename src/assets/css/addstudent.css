@@ -1,0 +1,345 @@
+#addstudent {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 100%;
+  padding: 3rem;
+}
+
+.addstudent-heading span span {
+  font-size: 1.7rem;
+  font-weight: 400;
+}
+
+#addstudent Link{
+  color: var(--color-text);
+}
+/* student Details */
+
+#student-details,
+#sibling-information,
+#family-information{
+  width: 100%;
+  height: auto;
+  border-radius: 1.25rem;
+  background-color: var(--color-white);
+  margin-top: 2rem;
+  box-shadow: 0px 2px 6px 0px rgba(13, 10, 44, 0.08);
+}
+
+.student-details-heading,
+.sibling-information-heading,
+.family-information-heading {
+  width: 100%;
+  height: 3.75rem;
+  color: var(--color-white);
+  border-top-left-radius: 1.25rem;
+  border-top-right-radius: 1.25rem;
+  background-color: var(--color-purple);
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+  text-transform: capitalize;
+
+  display: flex;
+  align-items: center;
+  padding-left: 2rem;
+}
+.student-details-form {
+  display: grid;
+  grid-template-columns: 10rem repeat(1, 1fr);
+  grid-template-rows: auto;
+  gap: 3rem;
+  padding: 2rem;
+}
+
+.student-details-form div {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.student-photo-box {
+  height: 10.9375rem;
+  width: 10.9375rem;
+
+  border-radius: 0.3125rem;
+  background-color: var(--color-white);
+  border: 0.0625rem dashed #c1bbeb;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.student-photo-box span {
+  font-size: 0.8rem;
+  line-height: 0.3rem;
+  color: var(--color-grey-3);
+  font-weight: 400;
+}
+
+#student-details-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  gap: 3rem;
+}
+
+/* sibling details grid */
+
+#sibling-details {
+  padding-top: 1.5rem;
+  display: grid;
+  grid-template-columns: 10rem 5rem 13rem 23.5rem 10rem 1fr;
+  grid-template-rows: 100%;
+  gap: 1.5rem;
+  align-items: flex-end;
+}
+
+.student-form-label,
+.sibling-form-label {
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  text-transform: capitalize;
+  color: var(--color-text);
+}
+
+.student-form-input,
+.sibling-form-input {
+  height: 3rem;
+  width: 100%;
+  left: 0rem;
+  top: 2.6875rem;
+  border-radius: 0.3125rem;
+  background-color: var(--color-white);
+  border: 0.0625rem solid #c1bbeb;
+  font-size: 1rem;
+  color: var(--color-grey-3);
+  text-transform: capitalize;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+
+#dob-place-div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 100%;
+}
+.dob-place {
+  width: 100%;
+}
+
+.student-form-input-address{
+  height: 5rem;
+  padding: 1rem;
+}
+
+.student-form-input-textarea-count {
+  color: var(--color-grey-3);
+  font-family: 'Poppins';
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+/* Student Sibling Information & Family Information common properties */
+
+
+
+.sibling-information-form-div,
+.family-information-form-div  {
+  padding: 2rem;
+}
+
+/* radio button stylings */
+
+.sibling-radio-container span {
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+.sibling-radio-container .flex > div {
+  padding-left: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.sibling-radio-container .flex div > label {
+  padding-left: 1rem;
+  color: var(--color-grey-3);
+  text-transform: capitalize;
+}
+
+/* Default styling for radio buttons */
+input[type='radio'] {
+  -webkit-appearance: radio;
+  -moz-appearance: radio;
+  appearance: radio;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  width: 1rem;
+  height: 1rem;
+  margin: 0;
+  cursor: pointer;
+}
+
+.sibling-content {
+  padding: 2rem 0 0 0;
+}
+
+.add-more-btn-sibling {
+  width: 10rem;
+  height: 3rem;
+
+  background: var(--color-purple);
+  border-radius: 0.5rem;
+  color: var(--color-white);
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 3rem;
+  text-transform: capitalize;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 0.3rem;
+  cursor: pointer;
+}
+
+/* Family information  */
+
+.parental-status-heading {
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+.parental-status .flex > div {
+  padding-top: 0.5rem;
+  padding-left: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.parental-status .flex div > label {
+  padding-left: 1rem;
+  color: var(--color-grey-3);
+  text-transform: capitalize;
+  font-size: 1rem;
+}
+
+/* parental-status */
+.parental-status-father span,
+.parental-status-mother span,
+.parental-status-guardian span {
+  font-size: 1.5rem;
+}
+
+.parental-status-father > div,
+.parental-status-mother > div,
+.parental-status-guardian > div {
+  padding-top: 2rem;
+}
+
+#father-details-grid,
+#mother-details-grid,
+#guardian-details-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  gap: 3rem;
+}
+
+#father-details-grid div,
+#mother-details-grid div,
+#guardian-details-grid div {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.father-form-label,
+.mother-form-label,
+.guardian-form-label {
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  text-transform: capitalize;
+  color: var(--color-text);
+}
+
+.father-form-input,
+.mother-form-input,
+.guardian-form-input {
+  height: 3rem;
+  width: 100%;
+  left: 0rem;
+  top: 2.6875rem;
+  border-radius: 0.3125rem;
+  background-color: var(--color-white);
+  border: 0.0625rem solid #c1bbeb;
+  font-size: 1rem;
+  color: var(--color-grey-3);
+  text-transform: capitalize;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* submit button div */
+.student-submit-button-div {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 2rem 0 0 0;
+}
+
+/* Large desktop screens (1440px and above) */
+@media (min-width: 1440px) {
+}
+
+/* Medium-sized desktop screens (1280px to 1439px) */
+@media (min-width: 1280px) and (max-width: 1439px) {
+
+}
+
+/* Small desktop screens and tablets (1024px to 1279px) */
+@media (min-width: 1024px) and (max-width: 1279px) {
+}
+
+/* Tablets (768px to 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  #user-profile-div {
+    display: none;
+  }
+}
+
+/* Mobile devices in landscape orientation (480px to 767px) */
+@media (min-width: 480px) and (max-width: 767px) {
+  #user-profile-div {
+    display: none;
+  }
+}
+
+/* Mobile devices in portrait orientation (320px to 479px) */
+@media (min-width: 320px) and (max-width: 479px) {
+  #user-profile-div {
+    display: none;
+  }
+}
